@@ -35,9 +35,9 @@ return array(
                 'params' => array(
                     'host'     => 'localhost',
                     'port'     => '3306',
-                    'user'     => 'dbuser',
-                    'password' => '123',
-                    'dbname'   => 'zf2tutorial_webinar',
+                    'user'     => 'username',
+                    'password' => 'password',
+                    'dbname'   => 'database',
                 )
             ),
         ),
