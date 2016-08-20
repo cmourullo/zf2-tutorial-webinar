@@ -1,7 +1,20 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: carlos
- * Date: 20/08/2016
- * Time: 12:14
- */
+namespace Application\Entity;
+
+use Doctrine\ORM\Mapping as ORM;
+
+/** @ORM\Entity */
+
+class User {
+    /**
+     * @ORM\Id
+     * @ORM\GeneratedValue(strategy="AUTO")
+     * @ORM\Column(type="integer")
+     */
+    protected $id;
+
+    /** @ORM\Column(type="string") */
+    protected $fullName;
+
+    // getters/setters
+}
