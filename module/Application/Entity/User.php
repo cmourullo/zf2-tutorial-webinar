@@ -1,4 +1,5 @@
 <?php
+
 namespace Application\Entity;
 
 use Doctrine\ORM\Mapping as ORM;
@@ -16,5 +17,36 @@ class User {
     /** @ORM\Column(type="string") */
     protected $fullName;
 
-    // getters/setters
+    /**
+     * @return mixed
+     */
+    public function getId()
+    {
+        return $this->id;
+    }
+
+    /**
+     * @param mixed $id
+     */
+    public function setId($id)
+    {
+        $this->id = $id;
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getFullName()
+    {
+        return $this->fullName;
+    }
+
+    /**
+     * @param mixed $fullName
+     */
+    public function setFullName($fullName)
+    {
+        $this->fullName = $fullName;
+    }
+
 }
