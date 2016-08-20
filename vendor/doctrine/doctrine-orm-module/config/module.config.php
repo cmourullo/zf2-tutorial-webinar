@@ -37,7 +37,7 @@ return array(
                     'port'     => '3306',
                     'user'     => 'dbuser',
                     'password' => '123',
-                    'dbname'   => 'zf2tutorial',
+                    'dbname'   => 'zf2tutorial_webinar',
                 )
             ),
         ),
